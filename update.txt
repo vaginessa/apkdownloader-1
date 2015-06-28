@@ -1,0 +1,6 @@
+com.youdao.x86.dict
+com.MobileTicket
+com.google.android.gms
+com.google.android.marvin.talkback
+com.evernote
+com.oasisfeng.greenify
