@@ -35,12 +35,13 @@ public class DownloadManager implements Runnable {
 			MarketSession session = new MarketSession(false);
 			session.login(lg, pw, android);
 			System.out.println("Login success");
-			InstallAsset ia = session.queryGetAssetRequest(asset)
-					.getInstallAsset(0);
+			System.out.println(session.queryGetAssetRequest(asset).getInstallAsset(0));
+			System.exit(0);
+			InstallAsset ia = session.queryGetAssetRequest(asset).getInstallAsset(0);
 			String cookieName = ia.getDownloadAuthCookieName();
 			String cookieValue = ia.getDownloadAuthCookieValue();
 			URL url = new URL(ia.getBlobUrl());
-		    System.out.print(ia.getBlobUrl());
+			System.out.print(ia.getBlobUrl());
 			HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 			conn.setRequestMethod("GET");
 			conn.setRequestProperty("User-Agent",

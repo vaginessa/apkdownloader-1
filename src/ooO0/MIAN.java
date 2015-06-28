@@ -5,7 +5,7 @@ import java.io.IOException;
 public class MIAN {
 	public static final String ACCOUT_STRING = "@gmail.com";
 	public static final String PASSWOR_STRING = "";
-	public static final String DEVICEID_STRING = "3CE2A0FE685955AF";
+	public static final String DEVICEID_STRING = "11";
 
 
 	public static void main(String[] args) throws IOException {
