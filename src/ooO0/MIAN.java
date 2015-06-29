@@ -3,9 +3,9 @@ package ooO0;
 import java.io.IOException;
 
 public class MIAN {
-	public static final String ACCOUT_STRING = "@gmail.com";
+	public static final String ACCOUT_STRING = "";
 	public static final String PASSWOR_STRING = "";
-	public static final String DEVICEID_STRING = "11";
+	public static final String DEVICEID_STRING = "";
 
 
 	public static void main(String[] args) throws IOException {

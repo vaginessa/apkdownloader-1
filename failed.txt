@@ -55,3 +55,5 @@ v2:com.youdao.x86.dict:1:4000300
 v2:com.youdao.x86.dict:1:4000300
 v2:com.youdao.x86.dict:1:4000300
 v2:com.youdao.x86.dict:1:4000300
+v2:com.youdao.x86.dict:1:4000300
+v2:com.youdao.x86.dict:1:4000300
